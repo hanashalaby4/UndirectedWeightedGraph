@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DirectedUnweightedGraph.h" />
+    <ClInclude Include="UndirectedWeightedGraph.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UndirectedWeightedGraph.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
